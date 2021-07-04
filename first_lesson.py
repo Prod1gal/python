@@ -57,10 +57,10 @@ proceeds = float(input('Введите выручку фирмы: '))
 costs = float(input('Введите издержки фирмы: '))
 
 if proceeds > costs:
-    print('Фирма работает с пыбылью')
+    print('Фирма работает с прибылью')
     income = proceeds - costs
     print('Рентабельность фирмы {:%}'.format(income / proceeds))
-    employees = int(input('Введите пожалуйста количество сотрудников фирмы: '))
+    employees = int(input('Введите количество сотрудников фирмы: '))
     print(f'Прибыль на одного сотрудника составляет {income / employees}')
 elif proceeds == costs:
     print('Фирма работает в ноль')
